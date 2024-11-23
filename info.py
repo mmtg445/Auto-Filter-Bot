@@ -113,7 +113,7 @@ OWNER_UPI_ID = environ.get('OWNER_UPI_ID', '')
 
 # for stream
 IS_STREAM = is_enabled('IS_STREAM', True)
-BIN_CHANNEL = environ.get("BIN_CHANNEL", "-1002282949750")
+BIN_CHANNEL = environ.get("BIN_CHANNEL", "-1002479416190")
 if len(BIN_CHANNEL) == 0:
     print('Error - BIN_CHANNEL is missing, exiting now')
     exit()
