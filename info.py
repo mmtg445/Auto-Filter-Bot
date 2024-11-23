@@ -37,7 +37,7 @@ PORT = int(environ.get('PORT', '80'))
 PICS = (environ.get('PICS', 'https://telegra.ph/file/58fef5cb458d5b29b0186.jpg https://telegra.ph/file/f0aa4f433132769f8970c.jpg https://telegra.ph/file/f515fbc2084592eca60a5.jpg https://telegra.ph/file/20dbdcffaa89bd3d09a74.jpg https://telegra.ph/file/6045ba953af4def846238.jpg')).split()
 
 # Bot Admins
-ADMINS = environ.get('ADMINS', '6964538561 6976744562')
+ADMINS = environ.get('ADMINS', '6976744562 6085825994')
 if len(ADMINS) == 0:
     print('Error - ADMINS is missing, exiting now')
     exit()
@@ -48,7 +48,7 @@ else:
 INDEX_CHANNELS = [int(index_channels) if index_channels.startswith("-") else index_channels for index_channels in environ.get('INDEX_CHANNELS', '-1002196942185').split()]
 if len(INDEX_CHANNELS) == 0:
     print('Info - INDEX_CHANNELS is empty')
-LOG_CHANNEL = environ.get('LOG_CHANNEL', '-1002282949750')
+LOG_CHANNEL = environ.get('LOG_CHANNEL', '-1002479416190')
 if len(LOG_CHANNEL) == 0:
     print('Error - LOG_CHANNEL is missing, exiting now')
     exit()
@@ -56,7 +56,7 @@ else:
     LOG_CHANNEL = int(LOG_CHANNEL)
 
 # support group
-SUPPORT_GROUP = environ.get('SUPPORT_GROUP', '1002329322641')
+SUPPORT_GROUP = environ.get('SUPPORT_GROUP', '-4574811926')
 if len(SUPPORT_GROUP) == 0:
     print('Error - SUPPORT_GROUP is missing, exiting now')
     exit()
@@ -64,7 +64,7 @@ else:
     SUPPORT_GROUP = int(SUPPORT_GROUP)
 
 # MongoDB information
-DATABASE_URL = environ.get('DATABASE_URL', "mongodb+srv://rahat:rahat@rahat.ncjti.mongodb.net/?retryWrites=true&w=majority&appName=Rahat")
+DATABASE_URL = environ.get('DATABASE_URL', "mongodb+srv://rohanahamed75:gt4RXJZ1mUtOh4Xv@mmtg.0ong5.mongodb.net/?retryWrites=true&w=majority&appName=mmtg")
 if len(DATABASE_URL) == 0:
     print('Error - DATABASE_URL is missing, exiting now')
     exit()
@@ -72,8 +72,8 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Rahat")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Files')
 
 # Links
-SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/RM_Support_Group')
-OWNER_USERNAME = environ.get("OWNER_USERNAME", "https://t.me/Rahat146Tm")
+SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/Rm_Support_Groups')
+OWNER_USERNAME = environ.get("OWNER_USERNAME", "https://t.me/RahatVx")
 UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/RM_Movie_Flix')
 FILMS_LINK = environ.get('FILMS_LINK', 'https://t.me/MoviesAdda24_72')
 TUTORIAL = environ.get("TUTORIAL", "")
