@@ -56,7 +56,7 @@ else:
     LOG_CHANNEL = int(LOG_CHANNEL)
 
 # support group
-SUPPORT_GROUP = environ.get('SUPPORT_GROUP', '-1002470486707')
+SUPPORT_GROUP = environ.get('SUPPORT_GROUP', '-1002164413929')
 if len(SUPPORT_GROUP) == 0:
     print('Error - SUPPORT_GROUP is missing, exiting now')
     exit()
@@ -72,7 +72,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Rahat")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Files')
 
 # Links
-SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/Rm_Support_Groups')
+SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/RM_Movie_Request')
 OWNER_USERNAME = environ.get("OWNER_USERNAME", "https://t.me/RahatVx")
 UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/RM_Movie_Flix')
 FILMS_LINK = environ.get('FILMS_LINK', 'https://t.me/MoviesAdda24_72')
