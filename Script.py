@@ -10,7 +10,7 @@ class script(object):
 ★ Library: <a href=https://pyrogram.org>Pyrogram</a>"""
 
     MY_OWNER_TXT = """★ Name: Rahat
-★ Username: @Rahat146Tm
+★ Username: @RahatVx
 ★ Country: Bangladesh 🇧🇩🇧🇩"""
 
     STATUS_TXT = """🗂 Total Files: <code>{}</code>
@@ -81,7 +81,7 @@ I can't find the <b>{}</b> in my database! 🥲
 
     FILE_CAPTION = """<i>@RM_Movie_Flix {file_name}</i>
 
-🚫 ᴘʟᴇᴀsᴇ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ᴄʟᴏsᴇ ʙᴜᴛᴛᴏɴ ɪꜰ ʏᴏᴜ ʜᴀᴠᴇ sᴇᴇɴ ᴛʜᴇ ᴍᴏᴠɪᴇ 🚫"""
+  ➥ Join :- @Movies_Adda_725"""
 
     WELCOME_TEXT = """👋 Hello {mention}, Welcome to {title} group! 💞"""
 
@@ -127,7 +127,7 @@ I can't find the <b>{}</b> in my database! 🥲
 
 - ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ᴀɴ ᴏᴘᴇɴ ꜱᴏᴜʀᴄᴇ ᴘʀᴏᴊᴇᴄᴛ.
 
-- ꜱᴏᴜʀᴄᴇ - <a href=https://t.me/Rahat146Tm>ʜᴇʀᴇ</a>
+- ꜱᴏᴜʀᴄᴇ - <a href=https://t.me/RahatVx>ʜᴇʀᴇ</a>
 
 - ᴅᴇᴠʟᴏᴘᴇʀ - @RM_Movie_Flix"""
 
